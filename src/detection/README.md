@@ -10,4 +10,4 @@ For example, to test the original frames and save the result as results_ori.pkl
 
 `python tools/test.py configs/R50_FPN_DCN_test_fby.py --gpus 8 --out results_ori.pkl`
 
-Convert the results to the corresponding format. See `utils/pkl2json.py`
+Convert the results to the corresponding format. See `utils/pkl2json.py`
