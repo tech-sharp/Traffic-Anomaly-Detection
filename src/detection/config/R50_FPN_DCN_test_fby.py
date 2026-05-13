@@ -148,4 +148,4 @@ log_level = 'INFO'
 work_dir = './work_dirs/faster_rcnn_dconv_c3-c5_r50_fpn_1x'
 load_from = '/mnt/lustre/baishuai/experiment/mmdetection/faster_rcnn_dconv_c3-c5_r50_fpn_1x_20190125-1b768045.pth'
 resume_from = None
-workflow = [('train', 1)]
+workflow = [('train', 1)]
