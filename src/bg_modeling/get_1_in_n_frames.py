@@ -21,4 +21,4 @@ for i in range(1, 101):
         shutil.copyfile(org_video_folder + str(f) + ".jpg", subset_video_folder + str(f) + ".jpg")
         f += N
 
-    print("Video " + str(i) + " is done.")
+    print("Video " + str(i) + " is done.")
