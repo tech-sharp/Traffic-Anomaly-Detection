@@ -59,4 +59,4 @@ for i in tqdm.tqdm(range(1,101)):
             else:
                 cv2.imwrite(dest_dir_processed+video_name+'/'+str(i*internal_frame+start_frame)
                         +'_'+str(j)+'.jpg',img*0)
-            former_im = now_im
+            former_im = now_im
