@@ -57,4 +57,4 @@ for video_id in range(1, 101):
     np.save("../../detection_results/seg_masks_2/%s.npy" % str(video_id), mask)
 
     img = Image.fromarray(mask.astype('byte'))
-    plt.imsave(str(video_id) + ".jpg", img, cmap='gray')
+    plt.imsave(str(video_id) + ".jpg", img, cmap='gray')
