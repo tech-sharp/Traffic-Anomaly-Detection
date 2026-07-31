@@ -42,4 +42,4 @@ class AnomalyDataset(CustomDataset):
               img_infos.append(tmp_ann)
 
 
-        return img_infos
+        return img_infos
